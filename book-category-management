@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const BookCategory = require('./models/bookCategory'); // 假设你有一个bookCategory模型
+const BookCategory = require('./models/bookCategory'); 
 
 
 router.post('/categories', async (req, res) => {
